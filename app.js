@@ -1,7 +1,14 @@
 class TriviaGameShow {
 	constructor(element, options = {}) {
-		//Which categories we should use (or use default is nothing provided)
-		this.useCategoryIds = options.useCategoryIds || [1892, 4483, 88, 218];
+		//Which categories we should use (or use default if nothing provided)
+		this.useCategoryIds = options.useCategoryIds || [
+			1892,
+			4483,
+			218,
+			6938,
+			8,
+			24,
+		];
 		/*
           Default Categories pulled from https://jservice.io/search:
           ---
